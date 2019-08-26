@@ -1,0 +1,22 @@
+# CSAP™ Site settings
+# vim: nospell
+port: 4000
+output: _dist
+title: Crypto Seed Accountancy Platfrom
+description: The best way to finance your project !
+email: michelc@csap.ml
+baseurl: ""
+url: "//jekyll.tk" # the base hostname & protocol for your site
+url: "https://michel47.github.io"
+netname: modest-pare-29d464
+url: "https://modest-pare-29d464.netlify.net"
+googledocid: 1VfERUZ8oTEGlCT3Xn37yK1TOsYxFZuJryNNR7bhJdUM
+framaid: csap
+
+exclude:
+ - publish.sh
+ - _site
+ - Gemfile
+ - Gemfile.lock
+ - travis.sh
+ - mkvid.pl

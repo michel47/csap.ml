@@ -1,0 +1,64 @@
+body {
+  background-image: URL(http://127.0.0.1:8080/ipfs/z8bviyunaSqTWALqS1n9Y6GWjAWyLuEEZ/Mali-Elephants-slide-IPY6-articleLarge.jpg);
+  background-image: URL(http://cloudflare-ipfs.com/ipfs/zb2rhjMyoQJAYz86WErVjdhrAer4QT5RfC8r16tef6tVDwUUq);
+  background-image: linear-gradient(to bottom right, magenta,gold,magenta);
+  background-image: URL(https://cdn.statically.io/img/cloudflare-ipfs.com/ipfs/uAXAANRIvChgBcBEUHvRvRspxgZAVT9jy25bAC9LtycESD2Jva2VoLW5lYnlkLmpwZxjVvAIKAggB/bokeh-nebyd.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /*
+  background-size: cover;
+  background-size: 680px auto;
+  */
+  background-size: 100% auto;
+  /* min-height: 100%; */
+}
+.layer { display: none; }
+div {
+ position: relative;
+ max-width: 680px;
+ margin-left: 100px;
+ margin: auto;
+
+ /* background-image: linear-gradient(to bottom right, white,darkgrey); */
+ opacity: 0.96;
+
+ padding: 2em;
+ border-radius: 8px;
+ box-shadow:2px 10px 4px rgba(0, 0, 0, 0.40);
+ font-size: 14px;
+ text-align: justify;
+}
+h1,h2,h3,h4,h5 { text-align: left; }
+
+div.content {
+ width: 80%;
+ padding: 3em;
+
+ /*
+ background: blue;
+ background-image: linear-gradient(to bottom left, red,gold,gold,white);
+  */
+ background-image: linear-gradient(to bottom left, rgba(255,200,100,0.6),white);
+  border-radius: 3px;
+  box-shadow:2px 20px 10px rgba(0, 0, 0, 0.40);
+}
+
+pre { overflow: auto }
+
+img { max-width: 100% } 
+video { max-width: 100% } 
+
+#sig {
+      font-family: "Loved by the King";
+      font-size: 2em;
+}
+
+.bcode39 {
+      font-family: "Barcode 39 Text";
+      font-size: 200%;
+}
+
+
+
+
