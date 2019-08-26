@@ -13,6 +13,7 @@ layout: default
 <video controls="controls"><!-- width="560" height="315" -->
 <source src="https://cloudflare-ipfs.com/ipfs/QmeRQZruSteZnZ82tcezVWmfrcds9AqtK54sF2HKLHEwLQ" type="video/mp4">
 <source src="https://ipfs.blockringtm.ml/ipfs/{{site.data.video5.QM58}}" type="video/mp4">
+<source src="{{site.data.video5.VNAME}}.mp4" type="video/mp4">
 <source src="http://dweb.link/ipfs/{{site.data.video5.QM58}}" type="video/mp4">
 <source src="https://hardbin.com/ipfs/{{site.data.video5.QM58}}" type="video/mp4">
 
