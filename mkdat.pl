@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-my $MUTDIR=$ENV{HOME}.'/mutables';
 use lib $ENV{SITE}.'/lib';
 use UTIL qw(fname get_localip);
 use IPFS qw(ipfsrun);
@@ -42,18 +41,6 @@ QM58: %s
 wrap: %s
 M3U64: "%s"
 EOF
-
-if (0) { 
-system "perl -S mdx.pl video5.mdx > /dev/null";
-
-my $vd5 = &ipfsrun('add -w --raw-leaves --progress=false video5.yml video5.mdx video5.html style.css');
-my $vd58 = $vd5->{'video5.html'};
-printf "http://0.0.0.0:8083/ipfs/%s/video5.html\n",$vd5->{wrap};
-local *L; open L,'>>',$MUTDIR.'/videolist.sul';
-printf L "http://127.0.0.1:8080/ipfs/%s/video5.htm\n",$vd5->{wrap};
-close L;
-
-}
 
 exit $?;
 
